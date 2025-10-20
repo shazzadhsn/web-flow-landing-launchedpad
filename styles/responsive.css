@@ -1,0 +1,37 @@
+/* xs screen size */
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+    .common-btn {
+        padding: 10px 25px;
+    }
+    .hero-after-nav {
+        margin: 50px auto;
+    }
+    .hero-heading {
+        width: 80%;
+        margin: 50px auto;
+        font-size: 3em;
+    }
+}
+
+/* sm screen size */
+@media (min-width: 481px) and (max-width: 767px) {
+    .logo {
+        font-size: 1.75em;
+    }
+    .common-btn {
+        padding: 10px 25px;
+    }
+    .hero-heading {
+        font-size: 3em;
+    }
+}
+
+/* md screen size */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .hero-heading {
+        font-size: 3.5em;
+    }
+}
