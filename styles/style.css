@@ -45,3 +45,17 @@
     justify-content: space-between;
     align-items: center;
 }
+.hero-heading {
+    color: var(--heading-color);
+    font-size: 4.063em;
+    font-weight: 700;
+    text-align: center;
+}
+.hero-after-nav {
+    width: 100%;
+    margin: 150px 0px;
+}
+.focus-btn {
+    display: block;
+    margin: 40px auto;
+}
