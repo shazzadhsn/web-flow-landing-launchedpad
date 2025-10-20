@@ -1,5 +1,6 @@
 /* xs screen size */
 @media (max-width: 480px) {
+    /* hero section */
     .logo {
         font-size: 1.5rem;
     }
@@ -14,10 +15,28 @@
         margin: 50px auto;
         font-size: 3em;
     }
+
+    /* live preview section */
+    .live-preview {
+        flex-direction: column;
+        text-align: center;
+    }
+    .preview-img {
+        margin-top: 100px;
+        width: 350px;
+        border-radius: 35px;
+    }
+    .preview-heading {
+        font-size: 1.875rem;
+    }
+    .preview-description {
+        font-size: 1.125rem;
+    }
 }
 
 /* sm screen size */
 @media (min-width: 481px) and (max-width: 767px) {
+    /* hero section */
     .logo {
         font-size: 1.75em;
     }
@@ -26,6 +45,26 @@
     }
     .hero-heading {
         font-size: 3em;
+        width: 80%;
+        margin: auto;
+    }
+
+    /* live preview section */
+    .live-preview {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .preview-heading {
+        font-size: 2rem;
+    }
+    .preview-img {
+        width: 350px;
+        border-radius: 35px;
+    }
+    .preview-description {
+        font-size: 1.125rem;
     }
 }
 
@@ -33,5 +72,16 @@
 @media (min-width: 768px) and (max-width: 1023px) {
     .hero-heading {
         font-size: 3.5em;
+    }
+    
+    /* preview section */
+    .preview-img {
+        width: 320px;
+    }
+    .preview-heading {
+        font-size: 2rem
+    }
+    .preview-description {
+        font-size: 1.125rem;
     }
 }
