@@ -32,6 +32,24 @@
     .preview-description {
         font-size: 1.125rem;
     }
+
+    /* milestone section */
+    .milestone {
+        flex-direction: column;
+        text-align: center;
+    }
+    .milestone-numbers {
+        flex-direction: column;
+        align-items: center;
+    }
+    .milestone-heading {
+        font-size: 1.875rem;
+        width: 80%;
+        margin: 0px auto;
+    }
+    .user-number, .session-number, .rates-number {
+        font-size: 3.75rem;
+    }
 }
 
 /* sm screen size */
@@ -66,6 +84,22 @@
     .preview-description {
         font-size: 1.125rem;
     }
+
+    /* milestone section */
+    .milestone-numbers {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .milestone-heading {
+        width: 80%;
+        margin: 0px auto;
+    }
+    .user-number, .session-number, .rates-number {
+        font-size: 4rem;
+    }
+    .milestone-heading {
+        font-size: 2rem;
+    }
 }
 
 /* md screen size */
@@ -83,5 +117,11 @@
     }
     .preview-description {
         font-size: 1.125rem;
+    }
+
+    /* mileston section */
+    .milestone-heading {
+        width: 80%;
+        margin: 0px auto;
     }
 }
