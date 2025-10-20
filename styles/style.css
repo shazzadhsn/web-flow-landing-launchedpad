@@ -117,3 +117,45 @@
     font-size: 1.25rem;
     color: var(--light-text);
 }
+.feedbacks {
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+.feedback {
+    background-color: rgba(255, 255, 255, 0.50);
+    border: 1px solid #F2EDED;
+    padding:20px;
+    border-radius: 15px;
+}
+.stars {
+    margin-bottom: 20px;
+}
+.user-feedback {
+    margin: 100px 0px;
+}
+.feedbacks-heading {
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 2.375rem;
+}
+.feedback-heading {
+    margin-bottom: 10px;
+    color: var(--heading-color);
+}
+.feedback-description {
+    margin-bottom: 20px;
+    color: var(--normal-text);
+    line-height: 1.563rem;
+}
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+.avatar {
+    border-radius: 50%;
+    margin: 0px 20px 0px 0px;
+}
