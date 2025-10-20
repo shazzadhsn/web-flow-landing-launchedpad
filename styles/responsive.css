@@ -50,6 +50,17 @@
     .user-number, .session-number, .rates-number {
         font-size: 3.75rem;
     }
+
+    /* feedback section */
+    .feedbacks {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .feedbacks-heading {
+        width: 80%;
+        font-size: 1.875rem;
+        margin: 0px auto 60px;
+    }
 }
 
 /* sm screen size */
@@ -100,6 +111,15 @@
     .milestone-heading {
         font-size: 2rem;
     }
+
+    /* feedback section */
+    .feedbacks {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .feedbacks-heading {
+        font-size: 2rem;
+    }
 }
 
 /* md screen size */
@@ -123,5 +143,14 @@
     .milestone-heading {
         width: 80%;
         margin: 0px auto;
+    }
+
+    /* feedback section */
+    .feedbacks {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .special-feedback {
+        grid-column: 1/span 2;
     }
 }
