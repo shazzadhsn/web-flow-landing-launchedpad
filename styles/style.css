@@ -1,5 +1,6 @@
 /* importing font */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&display=swap');
 
 * {
     margin: 0;
@@ -78,4 +79,41 @@
 }
 .preview-img {
     border-radius: 50px;
+}
+.milestone {
+    width: 80%;
+    margin: 0px auto;
+    background-color: rgba(78, 71, 255, 0.10);
+    border-radius: 25px;
+    padding: 50px 0px;
+}
+.milestone-heading {
+    font-size: 2.375rem;
+    color: var(--heading-color);
+    font-weight: 700;
+    text-align: center;
+}
+.users, .sessions, .rates {
+    height: 170px;
+    width: 170px;
+    /* background-color: pink; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.milestone-numbers {
+    display: flex;
+    justify-content: space-evenly;
+}
+.user-number, .session-number, .rates-number {
+    color: var(--primary-color);
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: Inter;
+}
+.users-title, .session-title, .rates-title {
+    font-size: 1.25rem;
+    color: var(--light-text);
 }
