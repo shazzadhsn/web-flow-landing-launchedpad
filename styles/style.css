@@ -2,11 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Raleway;
-}
 :root {
     --primary-color: #4E47FF;
     --heading-color: #252432;
@@ -14,6 +9,15 @@
     --light-text: rgba(0, 0, 0, 0.50);
     --extra-light-text: rgba(0, 0, 0, 0.30);
     --footer-description: #8987A1;
+    --main-bg-color: #F5F8FF;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+}
+body {
+    background-color: var(--main-bg-color);
 }
 
 /* Hero Section */
@@ -158,4 +162,31 @@
 .avatar {
     border-radius: 50%;
     margin: 0px 20px 0px 0px;
+}
+.conference {
+    width: 80%;
+    margin: 0px auto;
+    background-color: white;
+    /* height: 500px; */
+    border-radius: 20px;
+    padding: 60px 0px;
+}
+.conference-text {
+    text-align: center;
+}
+.conference-heading {
+    font-size: 2.375rem;
+    color: var(--heading-color);
+}
+.conference-description {
+    color: var(--light-text);
+    margin: 20px 0px;
+}
+.get-started-btn {
+    margin-top: 10px;
+}
+.conference-img {
+    display: block;
+    margin: 40px auto 0px;
+    border-radius: 50px;
 }
