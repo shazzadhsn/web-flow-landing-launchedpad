@@ -61,7 +61,25 @@
         font-size: 1.875rem;
         margin: 0px auto 60px;
     }
+
+    /* conference section */
+    .conference-img {
+        width: 90%;
+        border-radius: 10px;
+    }
+    .conference-heading {
+        font-size: 1.875rem;
+    }
+    .conference-description {
+        width: 80%;
+        margin: 20px auto;
+    }
 }
+
+
+
+
+
 
 /* sm screen size */
 @media (min-width: 481px) and (max-width: 767px) {
@@ -120,7 +138,27 @@
     .feedbacks-heading {
         font-size: 2rem;
     }
+
+    /* conference section */
+    .conference-img {
+        width: 90%;
+        border-radius: 20px;
+    }
+    .conference-description {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .conference-heading {
+        font-size: 2rem;
+    }
 }
+
+
+
+
+
+
+
 
 /* md screen size */
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -152,5 +190,19 @@
     }
     .special-feedback {
         grid-column: 1/span 2;
+    }
+
+    /* conference section */
+    .conference-img {
+        width: 90%;
+        border-radius: 20px;
+    }
+}
+
+/* lg screen size */
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .conference-img {
+        width: 90%;
+        border-radius: 20px;
     }
 }
