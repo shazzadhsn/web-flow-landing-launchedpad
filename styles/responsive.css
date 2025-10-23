@@ -92,6 +92,18 @@
     .form-contact textarea {
         width: 92%;
     }
+
+    /* footer */
+    .footer-content {
+        width: 100%;
+    }
+    .footer-logo {
+        font-size: 4.5rem;
+    }
+    .footer-description {
+        width: 80%;
+        margin: 20px auto;
+    }
 }
 
 
@@ -187,6 +199,18 @@
     .form-contact textarea {
         width: 94%;
     }
+
+    /* footer */
+    .footer-content {
+        width: 100%;
+    }
+    .footer-logo {
+        font-size: 4.5rem;
+    }
+    .footer-description {
+        width: 80%;
+        margin: 20px auto;
+    }
 }
 
 
@@ -246,6 +270,11 @@
     }
     .form-contact textarea {
         width: 94%;
+    }
+
+    /* footer */
+    .footer-content {
+        width: 60%;
     }
 
 }
