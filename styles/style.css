@@ -233,4 +233,33 @@ label {
     width: 100%;
     margin-top: 20px;
 }
-
+footer {
+    background-color: #FFFFFF;
+    padding: 105px 0px;
+}
+.footer-content {
+    width: 40%;
+    text-align: center;
+    margin: 0px auto;
+}
+.footer-logo {
+    font-size: 6rem;
+    font-weight: 900;
+    color: var(--primary-color);
+}
+.footer-description {
+    color: #8987A1;
+    margin: 20px 0px;
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.links a {
+    text-decoration: none;
+    color: #8987A1;
+}
+.links li {
+    list-style-type: none;
+}
