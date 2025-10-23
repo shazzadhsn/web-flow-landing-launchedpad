@@ -74,6 +74,24 @@
         width: 80%;
         margin: 20px auto;
     }
+
+    /* contact form */
+    .contact-form {
+        flex-direction: column;
+    }
+    .contact-heading {
+        text-align: center;
+        font-size: 1.875rem;
+    }
+    .form-contact {
+        width: 100%;
+    }
+    .form-contact input {
+        width: 92%;
+    }
+    .form-contact textarea {
+        width: 92%;
+    }
 }
 
 
@@ -151,6 +169,24 @@
     .conference-heading {
         font-size: 2rem;
     }
+
+    /* contact-form */
+    .contact-form {
+        flex-direction: column;
+    }
+    .contact-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .form-contact {
+        width: 100%;
+    }
+    .form-contact input {
+        width: 94%;
+    }
+    .form-contact textarea {
+        width: 94%;
+    }
 }
 
 
@@ -197,12 +233,41 @@
         width: 90%;
         border-radius: 20px;
     }
+    
+    /* contact-form */
+    .contact-heading {
+        font-size: 3.125rem;
+    }
+    .form-contact {
+        width: 60%;
+    }
+    .form-contact input {
+        width: 94%;
+    }
+    .form-contact textarea {
+        width: 94%;
+    }
+
 }
+
+
+
+
+
+
 
 /* lg screen size */
 @media (min-width: 1024px) and (max-width: 1279px) {
     .conference-img {
         width: 90%;
         border-radius: 20px;
+    }
+
+    /* contact-form */
+    .contact-heading {
+        font-size: 3.5rem;
+    }
+    .form-contact {
+        width: 50%;
     }
 }
